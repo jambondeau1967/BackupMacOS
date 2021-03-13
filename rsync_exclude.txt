@@ -1,0 +1,15 @@
+venv*/*
+venv.*.*.*/
+.git/*
+db.sql*
+.ipynb_checkpoints
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*/__pycache__
+__pycache__/*
+*.pyc
+.python-version
+*.egg
+*.egg-info/
+*/.*

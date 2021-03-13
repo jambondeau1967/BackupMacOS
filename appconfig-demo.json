@@ -1,0 +1,20 @@
+{
+    "accountname": "yourname",
+    "backup_destinations": [
+        {
+            "hostname": "host1",
+            "folderrootdestination": "your-backupfolder-on-host1"
+        },
+        {
+            "hostname": "host2",
+            "folderrootdestination": "your-backupfolder-on-host2"
+        }
+    ],
+    "rsync": {
+        "excludelist": "./rsync_exclude.txt",
+        "folders": [
+            "bla1",
+            "bla2"
+        ]
+    }
+}
